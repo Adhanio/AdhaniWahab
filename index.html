@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <div class="absolute">
+      <div class="absolute inset-0 justify-center">
+        <div class="bg-shape1 bg-teal opacity-50 bg-blurr"></div>
+        <div class="bg-shape2 bg-primary opacity-50 bg-blurr"></div>
+        <div class="bg-shape1 bg- opacity-50 bg-blurr"></div>
+      </div>
+    </div>
+    <nav id="desktop-nav">
+        <div class = "logo">Adhani</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#experience">Experience</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class = "logo">Adhani</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>                           
+            <span></span>
+            <span></span></div>
+            <div class="menu-links">
+                <li><a href = "#about" onclick="toggleMenu()">About</a></li>
+                <li><a href = "#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href = "#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href = "#contact" onclick="toggleMenu()" >Contact</a></li>
+                <!-- menu links akan ialah menu yg akan dibuka-->
+            </div>
+
+            <!-- span 3time tu adalah line untuk hamburger menu -->
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./adhaniportfolioasset/dp-resume.png" alt="Adhani profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Adhani</h1>
+            <p class="section__text__p2">UI/UX Designer</p>
+            <div class="btn-container">
+            <button class="btn btn-color-2" 
+                onclick="window.open('./adhaniportfolioasset/adhani resume plyp.2.pdf')">Download Resume
+            </button>
+            <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Me
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="./adhaniportfolioasset/linkedin.png" 
+                alt="My LinkedIn Profile" 
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/adhani-wahab/'">
+
+                <img src="./adhaniportfolioasset/github.png" 
+                alt="My GitHub Profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/Adhanio'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./adhaniportfolioasset/about me .png" alt="About Me" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./adhaniportfolioasset/quality.png" alt="Experience Icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2 years <br>UI/UX Design</p>
+                    </div>
+                    <div class="details-container"> 
+                        <img src="./adhaniportfolioasset/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p><b>Bachelor Of Computer Science </b><br>Majoring in Media Interactive</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am actively seeking a job opportunity where I can apply my academic knowledge to real-world projects and gain practical experience in the dynamic field of interactive media. I am deeply passionate about continuous learning and thrive on exploring new technologies and creative solutions, making me a dedicated and adaptable candidate ready to contribute and grow within a forward-thinking organization.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    <img src="./adhaniportfolioasset/arrow.png" alt="Arrow Icon" class="icon arrow"
+    onclick="location.href='./#experience'">
+
+    <div class="absolute">
+      <div class="absolute inset-0 justify-center">
+        <div class="bg-shape1 bg-teal opacity-50 bg-blurr"></div>
+        <div class="bg-shape2 bg-primary opacity-50 bg-blurr"></div>
+        <div class="bg-shape1 bg- opacity-50 bg-blurr"></div>
+      </div>
+    </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wordpress</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Others</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Photoshop</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Premier Pro</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Unity</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./adhaniportfolioasset/check (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Blender</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./adhaniportfolioasset/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+        <div class="absolute">
+          <div class="absolute inset-0 justify-center">
+            <div class="bg-shape1 bg-teal opacity-50 bg-blurr"></div>
+            <div class="bg-shape2 bg-primary opacity-50 bg-blurr"></div>
+            <div class="bg-shape1 bg- opacity-50 bg-blurr"></div>
+          </div>
+        </div>
+      </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            
+            <div class="about-container">
+           
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./adhaniportfolioasset/project1 banner.png" alt="Project 1" class="project-img">
+                 </div>
+                 <h2 class="experience-sub-title project-title">Project One</h2>
+                 <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Adhanio/UIUX-Makan2.git' ">
+                  GitHub</button>
+                 
+                 
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.figma.com/proto/iMGkAY0OtCP5C2AiUrkk8A/MAKAN2?node-id=0-1&t=S7faaKgKifXe8Fnv-1' ">
+                  Live Demo</button>
+                 
+            </div>
+            
+         </div> 
+         <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./adhaniportfolioasset/save water.png" alt="Project 1" class="project-img">
+                 </div>
+                 <h2 class="experience-sub-title project-title">Project Two</h2>
+                 <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Adhanio/Pale-Scene.git' ">
+                    GitHub</button>
+
+                    <video id="myVideo" width="320" height="240" controls style="display:none;">
+                      <source src="./adhaniportfolioasset/1.PALE - backup_final - Android - Unity 2019.4.31f1_ _DX11_ 2023-07-04 15-58-52.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
+              
+                  <br>
+              
+                  <button class="btn btn-color-2 project-btn" onclick="openVideo()">Video Demo</button>
+              
+                  
+                 
+                 
+                    <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='"">
+                  Video Demo</button> -->
+                 
+            </div>
+            
+         </div>
+         
+    </div>
+        <img src="./adhaniportfolioasset/arrow.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#contact'"> 
+        <div class="absolute">
+          <div class="absolute inset-0 justify-center">
+            <div class="bg-shape1 bg-teal opacity-50 bg-blurr"></div>
+            <div class="bg-shape2 bg-primary opacity-50 bg-blurr"></div>
+            <div class="bg-shape1 bg- opacity-50 bg-blurr"></div>
+          </div>
+        </div>   
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./adhaniportfolioasset/email.png" alt="Email Icon" class="icon contact-icon">
+                <p><a href="mailto:adhaniwahab@gmail.com">adhaniwahab@gmail.com &emsp;</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./adhaniportfolioasset/linkedin.png" alt="Email Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/adhani-wahab/">Adhani Wahab &emsp;</a></p>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#experience">Experience</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright&#169; 2024 Adhani Wahab. All Rights Reserved.</p>
+    </footer>
+  <script src="script.js"></script>  
+</div> 
+</body>
+</html>
